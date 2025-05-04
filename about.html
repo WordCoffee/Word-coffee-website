@@ -3,25 +3,122 @@
 <head>
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
-  <title>About Us | Word Coffee</title>
+  <title>About Us - Word Coffee</title>
   <style>
-    body { font-family: sans-serif; padding: 2em; background: #fff8f0; color: #333; }
-    nav a { margin-right: 1em; }
+    body {
+      margin: 0;
+      font-family: 'Segoe UI', sans-serif;
+      background-color: #fdfaf6;
+      color: #333;
+    }
+    header {
+      background-color: #8B5E3C;
+      padding: 1.5rem;
+      text-align: center;
+      color: white;
+    }
+    nav a {
+      margin: 0 1rem;
+      color: white;
+      text-decoration: none;
+      font-weight: bold;
+    }
+    .hero {
+      background: url('https://images.unsplash.com/photo-1509042239860-f550ce710b93') no-repeat center center/cover;
+      height: 300px;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      color: white;
+      text-shadow: 0px 0px 10px #000;
+      font-size: 2rem;
+      font-weight: bold;
+    }
+    .content {
+      max-width: 900px;
+      margin: 2rem auto;
+      padding: 0 1rem;
+    }
+    .section {
+      margin-bottom: 3rem;
+    }
+    h2 {
+      color: #8B5E3C;
+      margin-bottom: 0.5rem;
+    }
+    .team {
+      display: flex;
+      gap: 2rem;
+      flex-wrap: wrap;
+      justify-content: center;
+    }
+    .team img {
+      width: 200px;
+      height: 200px;
+      object-fit: cover;
+      border-radius: 50%;
+      border: 4px solid #8B5E3C;
+    }
+    footer {
+      background-color: #8B5E3C;
+      color: white;
+      text-align: center;
+      padding: 1rem;
+      margin-top: 4rem;
+    }
   </style>
 </head>
 <body>
   <header>
-    <h1>About Word Coffee</h1>
+    <h1>Word Coffee</h1>
     <nav>
       <a href="index.html">Home</a>
-      <a href="about.html">About</a>
+      <a href="about.html">About Us</a>
       <a href="products.html">Products</a>
-      <a href="learn-more.html">Learn More</a>
+      <a href="learn.html">Learn More</a>
     </nav>
   </header>
-  <main>
-    <p>Word Coffee began as a heartfelt idea: that words, like coffee, could give us a boost exactly when we need it. We've turned that belief into beautifully designed affirmation cards to support women and moms in their everyday journeys.</p>
-    <p>We’re a small business with a big mission—to empower you with strength, humor, and daily motivation.</p>
-  </main>
+
+  <div class="hero">
+    Motivation, One Word at a Time
+  </div>
+
+  <div class="content">
+    <div class="section">
+      <h2>Our Story</h2>
+      <p>
+        Word Coffee started as a simple idea: What if your daily boost of energy wasn’t just from caffeine, but from the words you surround yourself with? We believe in the power of small affirmations, heartfelt motivation, and meaningful reminders. What began as scribbled notes on coffee cups grew into a community of purpose-driven individuals looking to wake up not just physically—but emotionally and mentally.
+      </p>
+      <p>
+        Our mission is to inspire moments of reflection, courage, and clarity through beautifully designed motivational cards. Whether you're a mom juggling chaos or a woman chasing a dream—or just someone trying to get through Monday—we’re here for that extra spark.
+      </p>
+    </div>
+
+    <div class="section">
+      <h2>What We Believe</h2>
+      <p>
+        We believe in the strength of a single word. That motivation doesn’t always come from loud speeches—it can come from a sentence on your desk, a whisper of hope when you need it most. Word Coffee exists to be that daily nudge toward your best self.
+      </p>
+      <p>
+        Our cards are more than just products—they're an experience. A ritual. A dose of caffeine for the soul.
+      </p>
+    </div>
+
+    <div class="section">
+      <h2>Meet the Team</h2>
+      <p>
+        We're a small team with big hearts, passionate about creativity, empowerment, and helping others rise with intention. Here are some of the humans behind the words:
+      </p>
+      <div class="team">
+        <img src="https://images.unsplash.com/photo-1603415526960-f7e0328f1068" alt="Team Member 1">
+        <img src="https://images.unsplash.com/photo-1595152772835-219674b2a8a0" alt="Team Member 2">
+        <img src="https://images.unsplash.com/photo-1524504388940-b1c1722653e1" alt="Team Member 3">
+      </div>
+    </div>
+  </div>
+
+  <footer>
+    © 2025 Word Coffee • Made with purpose and passion.
+  </footer>
 </body>
 </html>
