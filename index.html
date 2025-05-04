@@ -4,8 +4,7 @@
 <head>
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <title>Word Coffee | Home</title>
-  <link rel="stylesheet" href="style.css" />
+  <title>Word Coffee</title>
   <style>
     body {
       font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
@@ -25,6 +24,7 @@
     header h1 {
       margin: 0;
       font-size: 2.8rem;
+      letter-spacing: 1px;
     }
 
     nav {
@@ -40,13 +40,12 @@
 
     .section {
       padding: 3rem 2rem;
-      max-width: 800px;
+      max-width: 900px;
       margin: auto;
-      text-align: center;
     }
 
     .section h2 {
-      font-size: 2rem;
+      font-size: 2.2rem;
       margin-bottom: 1rem;
       color: #5e4630;
     }
@@ -56,24 +55,22 @@
       line-height: 1.8;
     }
 
-    .buttons {
+    .button-container {
+      display: flex;
+      justify-content: center;
+      flex-wrap: wrap;
+      gap: 1rem;
       margin-top: 2rem;
     }
 
-    .buttons a {
-      display: inline-block;
-      margin: 0.5rem;
-      padding: 0.75rem 1.5rem;
+    .button-container a {
       background-color: #5e4630;
       color: white;
+      padding: 0.8rem 1.5rem;
       text-decoration: none;
-      border-radius: 8px;
+      border-radius: 5px;
+      font-size: 1rem;
       font-weight: bold;
-      transition: background-color 0.3s ease;
-    }
-
-    .buttons a:hover {
-      background-color: #3f2e20;
     }
 
     footer {
@@ -100,18 +97,21 @@
   <section class="section">
     <h2>Welcome to Word Coffee</h2>
     <p>
-      Word Coffee is more than a card brand—it's a movement. Rooted in the idea that the right words can ignite your day,
-      we’ve combined motivation, mindfulness, and simplicity to fuel your mindset—just like your morning coffee.
-    </p>
-    <p>
-      Whether you're a mom, a woman on a mission, or simply someone who believes in the power of language, Word Coffee is designed to speak to you—literally.
-      From powerful affirmations to grounded research, our brand is built on helping people find energy, clarity, and peace of mind in just a few words.
+      Word Coffee is more than just a brand—it's a daily ritual of encouragement, a pause for perspective, and a moment to reset your mindset. We believe that just like your morning coffee powers your body, the right words can power your day.
     </p>
 
-    <div class="buttons">
-      <a href="products.html">Shop Products</a>
-      <a href="informational.html">More Research</a>
-      <a href="about.html">About the Brand</a>
+    <p>
+      Whether you're a mom balancing it all, a professional on the grind, or simply someone who wants to start the day with clarity and intention, Word Coffee is your pocket-sized boost of inspiration. Our cards are designed to stir motivation, mindfulness, and strength with every sip and sentence.
+    </p>
+
+    <p>
+      Discover how one word can make a world of difference.
+    </p>
+
+    <div class="button-container">
+      <a href="about.html">About Us</a>
+      <a href="products.html">Explore Products</a>
+      <a href="informational.html">Learn the Science</a>
     </div>
   </section>
 
