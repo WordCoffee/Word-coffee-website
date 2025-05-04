@@ -1,41 +1,79 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
   <meta charset="UTF-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
-  <title>Word Coffee</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Word Coffee | Home</title>
+  <link rel="stylesheet" href="style.css" />
   <style>
     body {
-      font-family: 'Helvetica Neue', sans-serif;
+      font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
       margin: 0;
       padding: 0;
-      background: #fff8f0;
+      background-color: #f8f5f2;
       color: #333;
     }
-    header, footer {
-      background-color: #6b4f4f;
+
+    header {
+      background-color: #5e4630;
       color: white;
-      padding: 1em;
+      padding: 1rem 2rem;
       text-align: center;
     }
+
+    header h1 {
+      margin: 0;
+      font-size: 2.8rem;
+      letter-spacing: 1px;
+    }
+
+    nav {
+      margin-top: 0.5rem;
+    }
+
     nav a {
-      margin: 0 1em;
       color: white;
       text-decoration: none;
+      margin: 0 1rem;
+      font-weight: bold;
     }
-    main {
-      padding: 2em;
-      max-width: 800px;
+
+    .section {
+      padding: 3rem 2rem;
+      max-width: 1000px;
       margin: auto;
     }
-    .cta {
-      background: #ffe6cc;
-      padding: 1em;
-      margin: 2em 0;
-      border-radius: 8px;
+
+    .section h2 {
+      font-size: 2.4rem;
+      margin-bottom: 1rem;
+      color: #5e4630;
+    }
+
+    .section p {
+      font-size: 1.1rem;
+      line-height: 1.8;
+    }
+
+    .section img {
+      width: 100%;
+      max-height: 400px;
+      object-fit: cover;
+      margin: 2rem 0;
+      border-radius: 10px;
+    }
+
+    footer {
+      background-color: #5e4630;
+      color: white;
+      text-align: center;
+      padding: 1rem;
+      margin-top: 3rem;
     }
   </style>
 </head>
+
 <body>
   <header>
     <h1>Word Coffee</h1>
@@ -43,18 +81,38 @@
       <a href="index.html">Home</a>
       <a href="about.html">About</a>
       <a href="products.html">Products</a>
-      <a href="learn-more.html">Learn More</a>
+      <a href="learn.html">Learn More</a>
     </nav>
   </header>
-  <main>
+
+  <section class="section">
     <h2>Welcome to Word Coffee</h2>
-    <p>Word Coffee is more than a brand—it's a daily dose of inspiration brewed with purpose. Our motivational card decks are designed to spark resilience, self-belief, and joy, especially for women and moms who are constantly showing up for the world.</p>
-    <div class="cta">
-      <p>We believe in the power of words to energize your soul like your favorite cup of coffee. Whether you're facing a challenge, starting your day, or just need a little encouragement—Word Coffee is here for you.</p>
-    </div>
-  </main>
+    <p>We’re so glad you’re here. Word Coffee is more than a brand—it’s a morning ritual, a moment of motivation, and a reminder of what matters. Every card we create is designed to spark something deep: courage, clarity, calm, or simply a breath of encouragement. Whether you’re navigating motherhood, chasing big dreams, or just trying to get through the day—Word Coffee is your daily boost.</p>
+    <img src="https://images.unsplash.com/photo-1532951801144-69d9d2dd56db" alt="Cozy desk with coffee and journal" />
+  </section>
+
+  <section class="section">
+    <h2>What We Believe</h2>
+    <p>Words are powerful tools—they shape our thinking, steer our days, and help us rewrite the narratives in our heads. That’s why we created Word Coffee: a motivational card brand infused with intention and love. From small wins to big breakthroughs, every affirmation is brewed to energize your mindset just like your favorite cup of coffee.</p>
+    <img src="https://images.unsplash.com/photo-1553729459-efe14ef6055d" alt="Hands holding coffee and affirmation card" />
+  </section>
+
+  <section class="section">
+    <h2>How It Works</h2>
+    <p>Each deck of Word Coffee contains 54 beautifully crafted cards with affirmations, mindset shifts, and playful challenges. Use them each morning, on your desk, during journaling, or whenever you need a pick-me-up. Simple, grounded, and surprisingly effective—it’s motivation, made portable.</p>
+    <img src="https://images.unsplash.com/photo-1522202176988-66273c2fd55f" alt="Deck of motivational cards on table" />
+  </section>
+
+  <section class="section">
+    <h2>Join the Movement</h2>
+    <p>We’re building more than a product—we’re building a community that believes in kindness, self-growth, and showing up authentically. Sign up for our newsletter for early access to launches, real stories from women and moms just like you, and exclusive insights on how affirmations can reshape your daily life.</p>
+    <img src="https://images.unsplash.com/photo-1515378791036-0648a3ef77b2" alt="Women smiling and connecting with coffee" />
+  </section>
+
   <footer>
-    <p>© 2025 Word Coffee. All rights reserved.</p>
+    <p>&copy; 2025 Word Coffee. Fuel Your Mind, One Word at a Time.</p>
   </footer>
 </body>
+
 </html>
+
