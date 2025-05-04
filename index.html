@@ -24,8 +24,7 @@
 
     header h1 {
       margin: 0;
-      font-size: 2.8rem;
-      letter-spacing: 1px;
+      font-size: 2.5rem;
     }
 
     nav {
@@ -43,10 +42,11 @@
       padding: 3rem 2rem;
       max-width: 800px;
       margin: auto;
+      text-align: center;
     }
 
     .section h2 {
-      font-size: 2.2rem;
+      font-size: 2rem;
       margin-bottom: 1rem;
       color: #5e4630;
     }
@@ -57,19 +57,23 @@
     }
 
     .buttons {
-      display: flex;
-      flex-wrap: wrap;
-      gap: 1rem;
       margin-top: 2rem;
     }
 
     .buttons a {
+      display: inline-block;
+      margin: 0.5rem;
+      padding: 0.75rem 1.5rem;
       background-color: #5e4630;
       color: white;
-      padding: 0.75rem 1.5rem;
       text-decoration: none;
-      border-radius: 5px;
+      border-radius: 8px;
       font-weight: bold;
+      transition: background-color 0.3s ease;
+    }
+
+    .buttons a:hover {
+      background-color: #3f2e20;
     }
 
     footer {
@@ -89,25 +93,27 @@
       <a href="index.html">Home</a>
       <a href="about.html">About</a>
       <a href="products.html">Products</a>
-      <a href="learn.html">Learn More</a>
+      <a href="learn.html">Learn</a>
+      <a href="informational.html">Informational</a>
     </nav>
   </header>
 
   <section class="section">
     <h2>Welcome to Word Coffee</h2>
     <p>
-      At Word Coffee, we believe in the power of words to energize, uplift, and spark transformation. Whether you're a mom juggling a million things, a woman carving out space for self-love, or someone simply looking for a daily pick-me-up, Word Coffee is for you.
+      Word Coffee is more than a card brand—it's a movement. Rooted in the idea that the right words can ignite your day,
+      we’ve combined motivation, mindfulness, and simplicity to fuel your mindset—just like your morning coffee.
     </p>
     <p>
-      Our brand began with a simple idea: What if motivation could be as easy to access as your morning coffee? We’re here to deliver just that—powerful, purposeful phrases to help you rise, reflect, and thrive.
+      Whether you're a mom, a woman on a mission, or simply someone who believes in the power of language, Word Coffee is designed to speak to you—literally.
+      From powerful affirmations to grounded research, our brand is built on helping people find energy, clarity, and peace of mind in just a few words.
     </p>
-    <p>
-      Explore our growing collection of motivational card decks, discover the science behind affirmations, and learn how Word Coffee is brewing a future full of encouragement and possibility.
-    </p>
+
     <div class="buttons">
-      <a href="about.html">About Us</a>
-      <a href="products.html">See Our Products</a>
-      <a href="learn.html">The Power Behind the Brand</a>
+      <a href="products.html">Shop Products</a>
+      <a href="learn.html">Why It Works</a>
+      <a href="informational.html">More Research</a>
+      <a href="about.html">About the Brand</a>
     </div>
   </section>
 
