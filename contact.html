@@ -1,0 +1,150 @@
+<!-- contact.html -->
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Contact | Word Coffee</title>
+  <link rel="stylesheet" href="style.css" />
+  <style>
+    body {
+      margin: 0;
+      font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+      background: linear-gradient(to bottom right, #f5ebe0, #fff);
+      color: #333;
+    }
+
+    header {
+      background-color: #3f2e1e;
+      color: white;
+      text-align: center;
+      padding: 3rem 2rem;
+      background-image: url('https://images.unsplash.com/photo-1607082349566-18734255b30d');
+      background-size: cover;
+      background-position: center;
+    }
+
+    header h1 {
+      margin: 0;
+      font-size: 3.2rem;
+      letter-spacing: 2px;
+      text-shadow: 2px 2px 6px rgba(0, 0, 0, 0.5);
+    }
+
+    .tagline {
+      font-size: 1.4rem;
+      margin-top: 0.5rem;
+      font-style: italic;
+      text-shadow: 1px 1px 3px rgba(0, 0, 0, 0.4);
+    }
+
+    nav {
+      margin-top: 1.5rem;
+    }
+
+    nav a {
+      color: white;
+      text-decoration: none;
+      margin: 0 1rem;
+      font-weight: bold;
+      background-color: rgba(0, 0, 0, 0.35);
+      padding: 0.6rem 1.2rem;
+      border-radius: 6px;
+      transition: background-color 0.3s ease;
+    }
+
+    nav a:hover {
+      background-color: rgba(255, 255, 255, 0.2);
+    }
+
+    .section {
+      padding: 4rem 2rem;
+      max-width: 700px;
+      margin: auto;
+      text-align: center;
+    }
+
+    .section h2 {
+      font-size: 2.5rem;
+      margin-bottom: 1.2rem;
+      color: #3f2e1e;
+    }
+
+    .section p {
+      font-size: 1.2rem;
+      line-height: 1.85;
+      margin-bottom: 2rem;
+    }
+
+    form {
+      margin-top: 2rem;
+    }
+
+    input[type="email"] {
+      padding: 1rem;
+      width: 80%;
+      max-width: 400px;
+      margin-bottom: 1rem;
+      border: 1px solid #ccc;
+      border-radius: 5px;
+      font-size: 1rem;
+    }
+
+    input[type="submit"] {
+      background-color: #3f2e1e;
+      color: white;
+      border: none;
+      padding: 1rem 2rem;
+      font-size: 1rem;
+      border-radius: 6px;
+      cursor: pointer;
+      font-weight: bold;
+      transition: background-color 0.3s ease;
+    }
+
+    input[type="submit"]:hover {
+      background-color: #6b4b2a;
+    }
+
+    footer {
+      background-color: #3f2e1e;
+      color: white;
+      text-align: center;
+      padding: 1.5rem;
+    }
+  </style>
+</head>
+
+<body>
+  <header>
+    <h1>Word Coffee</h1>
+    <p class="tagline">Brewed for the Mind. Grounded in Purpose.</p>
+    <nav>
+      <a href="index.html">Home</a>
+      <a href="about.html">About</a>
+      <a href="products.html">Products</a>
+      <a href="informational.html">Informational</a>
+      <a href="contact.html">Contact</a>
+    </nav>
+  </header>
+
+  <main class="section">
+    <h2>Stay in the Loop</h2>
+    <p>
+      Want early access to product drops, mindset tools, or exclusive behind-the-scenes content? Join the Word Coffee community and get inspired straight to your inbox.
+    </p>
+
+    <form action="#" method="POST">
+      <input type="email" name="email" placeholder="Enter your email address" required />
+      <br />
+      <input type="submit" value="Sign Me Up" />
+    </form>
+  </main>
+
+  <footer>
+    <p>&copy; 2025 Word Coffee. Fuel Your Mind, One Word at a Time.</p>
+  </footer>
+</body>
+
+</html>
