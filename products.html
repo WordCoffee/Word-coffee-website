@@ -1,140 +1,11 @@
-<!-- products.html -->
 <!DOCTYPE html>
 <html lang="en">
-
 <head>
-  <meta charset="UTF-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <title>Products | Word Coffee</title>
-  <link rel="stylesheet" href="style.css" />
-  <style>
-    body {
-      margin: 0;
-      font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-      background: linear-gradient(to bottom right, #f5ebe0, #fff);
-      color: #333;
-    }
-
-    header {
-      background-color: #3f2e1e;
-      color: white;
-      text-align: center;
-      padding: 3rem 2rem;
-      background-image: url('https://images.unsplash.com/photo-1607082349566-18734255b30d');
-      background-size: cover;
-      background-position: center;
-    }
-
-    header h1 {
-      margin: 0;
-      font-size: 3.2rem;
-      letter-spacing: 2px;
-      text-shadow: 2px 2px 6px rgba(0, 0, 0, 0.5);
-    }
-
-    .tagline {
-      font-size: 1.4rem;
-      margin-top: 0.5rem;
-      font-style: italic;
-      text-shadow: 1px 1px 3px rgba(0, 0, 0, 0.4);
-    }
-
-    nav {
-      margin-top: 1.5rem;
-    }
-
-    nav a {
-      color: white;
-      text-decoration: none;
-      margin: 0 1rem;
-      font-weight: bold;
-      background-color: rgba(0, 0, 0, 0.35);
-      padding: 0.6rem 1.2rem;
-      border-radius: 6px;
-      transition: background-color 0.3s ease;
-    }
-
-    nav a:hover {
-      background-color: rgba(255, 255, 255, 0.2);
-    }
-
-    .section {
-      padding: 4rem 2rem;
-      max-width: 1100px;
-      margin: auto;
-      text-align: center;
-    }
-
-    .section h2 {
-      font-size: 2.5rem;
-      margin-bottom: 1.2rem;
-      color: #3f2e1e;
-    }
-
-    .section p {
-      font-size: 1.2rem;
-      line-height: 1.85;
-      margin-bottom: 2rem;
-    }
-
-    .product-grid {
-      display: flex;
-      flex-wrap: wrap;
-      justify-content: center;
-      gap: 2rem;
-    }
-
-    .product-card {
-      background-color: white;
-      border-radius: 10px;
-      box-shadow: 0 4px 16px rgba(0, 0, 0, 0.1);
-      width: 280px;
-      padding: 1.5rem;
-      text-align: left;
-      transition: transform 0.3s ease;
-    }
-
-    .product-card:hover {
-      transform: translateY(-5px);
-    }
-
-    .product-card img {
-      width: 100%;
-      border-radius: 8px;
-      margin-bottom: 1rem;
-    }
-
-    .product-card h3 {
-      font-size: 1.4rem;
-      color: #3f2e1e;
-      margin-bottom: 0.5rem;
-    }
-
-    .product-card p {
-      font-size: 1rem;
-      margin-bottom: 1rem;
-    }
-
-    .product-card a {
-      display: inline-block;
-      background-color: #3f2e1e;
-      color: white;
-      padding: 0.6rem 1.2rem;
-      text-decoration: none;
-      border-radius: 5px;
-      font-weight: bold;
-    }
-
-    footer {
-      background-color: #3f2e1e;
-      color: white;
-      text-align: center;
-      padding: 1.5rem;
-      margin-top: 4rem;
-    }
-  </style>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Word Coffee | Products</title>
+  <link rel="stylesheet" href="style.css">
 </head>
-
 <body>
   <header>
     <h1>Word Coffee</h1>
@@ -143,36 +14,37 @@
       <a href="index.html">Home</a>
       <a href="about.html">About</a>
       <a href="products.html">Products</a>
-      <a href="informational.html">Informational</a>
+      <a href="informational.html">Science</a>
       <a href="learn-more.html">Learn More</a>
       <a href="contact.html">Contact</a>
     </nav>
   </header>
 
   <main class="section">
-    <h2>Explore Our Decks</h2>
-    <p>Our growing collection is designed to serve powerful words at the perfect moment. These aren't just cards—they’re fuel for your mind.</p>
+    <h2>Our Products</h2>
+    <p>Each Word Coffee deck is designed with intention, crafted for reflection, and perfect for gifting or daily personal use. These are more than cards—they’re moments of pause, packaged with purpose.</p>
 
     <div class="product-grid">
       <div class="product-card">
-        <img src="https://via.placeholder.com/280x200?text=Word+Coffee+for+Moms" alt="Word Coffee for Moms">
+        <img src="https://via.placeholder.com/300x300.png?text=Word+Coffee+for+Moms" alt="Word Coffee for Moms" class="hero-image">
         <h3>Word Coffee for Moms</h3>
-        <p>Designed for the hearts that hold it all together. Encouragement and presence in a pocket-sized ritual.</p>
-        <a href="#" target="_blank">View on Amazon</a>
+        <p>A deck for the nurturing, multitasking, magnificent woman raising the next generation—with love and grit.</p>
+        <a href="https://amazon.com" target="_blank" class="button">View on Amazon</a>
       </div>
 
       <div class="product-card">
-        <img src="https://via.placeholder.com/280x200?text=Word+Coffee+for+Women" alt="Word Coffee for Women">
+        <img src="https://via.placeholder.com/300x300.png?text=Word+Coffee+for+Women" alt="Word Coffee for Women" class="hero-image">
         <h3>Word Coffee for Women</h3>
-        <p>Empowering affirmations and positive energy for women navigating growth, ambition, and identity.</p>
-        <a href="#" target="_blank">View on Amazon</a>
+        <p>Empowering, affirming, and beautifully written for the woman building dreams, boundaries, and belief in herself.</p>
+        <a href="https://amazon.com" target="_blank" class="button">View on Amazon</a>
       </div>
     </div>
+
+    <p style="margin-top: 3rem;">More decks and journals coming soon—join our journey as we expand Word Coffee into a full experience of mindfulness and motivation.</p>
   </main>
 
   <footer>
     <p>&copy; 2025 Word Coffee. Fuel Your Mind, One Word at a Time.</p>
   </footer>
 </body>
-
 </html>
