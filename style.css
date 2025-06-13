@@ -1,0 +1,100 @@
+/* style.css */
+body {
+  margin: 0;
+  font-family: 'Segoe UI', sans-serif;
+  background: #fff;
+  color: #333;
+  line-height: 1.6;
+}
+
+a { text-decoration: none; color: inherit; }
+
+header {
+  background-color: #3f2e1e;
+  color: #fff;
+  text-align: center;
+  padding: 2.5rem 1rem;
+  background-image: url('https://images.unsplash.com/photo-1607082349566-18734255b30d');
+  background-size: cover;
+  background-position: center;
+}
+
+header h1 {
+  font-size: 3rem;
+  margin: 0;
+}
+
+header .tagline {
+  margin-top: 0.25rem;
+  font-style: italic;
+  opacity: 0.9;
+}
+
+nav {
+  margin-top: 1rem;
+}
+
+nav a {
+  display: inline-block;
+  margin: 0 .5rem;
+  padding: .5rem 1rem;
+  background-color: rgba(0,0,0,0.35);
+  border-radius: 4px;
+  font-weight: bold;
+  transition: background-color .3s;
+}
+
+nav a:hover {
+  background-color: rgba(255,255,255,0.2);
+}
+
+.section {
+  max-width: 900px;
+  padding: 3rem 1rem;
+  margin: auto;
+  text-align: center;
+}
+
+.section h2 {
+  color: #3f2e1e;
+  font-size: 2.4rem;
+  margin-bottom: 1rem;
+}
+
+.section p {
+  font-size: 1.1rem;
+  margin-bottom: 1.5rem;
+}
+
+.hero-image {
+  max-width: 100%;
+  border-radius: 8px;
+  box-shadow: 0 6px 18px rgba(0,0,0,0.1);
+  margin: 2rem 0;
+}
+
+.button-container {
+  display: inline-flex;
+  gap: 1rem;
+  margin-top: 2rem;
+}
+
+.button-container a {
+  background-color: #3f2e1e;
+  color: #fff;
+  padding: .8rem 1.5rem;
+  border-radius: 4px;
+  font-weight: bold;
+  transition: background-color .3s;
+}
+
+.button-container a:hover {
+  background-color: #6b4b2a;
+}
+
+footer {
+  background-color: #3f2e1e;
+  color: #fff;
+  text-align: center;
+  padding: 1.5rem;
+}
