@@ -1,91 +1,100 @@
-/* style.css */
 body {
   margin: 0;
   font-family: 'Segoe UI', sans-serif;
-  background: #fff;
+  background: linear-gradient(to bottom right, #f5ebe0, #fff);
   color: #333;
   line-height: 1.6;
 }
 
-a { text-decoration: none; color: inherit; }
+a {
+  text-decoration: none;
+  color: inherit;
+}
 
 header {
   background-color: #3f2e1e;
-  color: #fff;
+  color: white;
   text-align: center;
-  padding: 2.5rem 1rem;
+  padding: 3rem 2rem;
   background-image: url('https://images.unsplash.com/photo-1607082349566-18734255b30d');
   background-size: cover;
   background-position: center;
 }
 
 header h1 {
-  font-size: 3rem;
+  font-size: 3.2rem;
   margin: 0;
+  letter-spacing: 2px;
+  text-shadow: 2px 2px 6px rgba(0, 0, 0, 0.5);
 }
 
-header .tagline {
-  margin-top: 0.25rem;
+.tagline {
+  font-size: 1.4rem;
+  margin-top: 0.5rem;
   font-style: italic;
-  opacity: 0.9;
+  text-shadow: 1px 1px 3px rgba(0, 0, 0, 0.4);
 }
 
 nav {
-  margin-top: 1rem;
+  margin-top: 1.5rem;
 }
 
 nav a {
   display: inline-block;
-  margin: 0 .5rem;
-  padding: .5rem 1rem;
-  background-color: rgba(0,0,0,0.35);
-  border-radius: 4px;
+  margin: 0 0.5rem;
+  padding: 0.6rem 1.2rem;
+  background-color: rgba(0, 0, 0, 0.35);
+  border-radius: 6px;
   font-weight: bold;
-  transition: background-color .3s;
+  color: white;
+  transition: background-color 0.3s ease;
 }
 
 nav a:hover {
-  background-color: rgba(255,255,255,0.2);
+  background-color: rgba(255, 255, 255, 0.2);
 }
 
 .section {
   max-width: 900px;
-  padding: 3rem 1rem;
+  padding: 4rem 2rem;
   margin: auto;
   text-align: center;
 }
 
 .section h2 {
+  font-size: 2.5rem;
+  margin-bottom: 1.2rem;
   color: #3f2e1e;
-  font-size: 2.4rem;
-  margin-bottom: 1rem;
 }
 
 .section p {
-  font-size: 1.1rem;
-  margin-bottom: 1.5rem;
+  font-size: 1.2rem;
+  margin-bottom: 2rem;
 }
 
 .hero-image {
   max-width: 100%;
   border-radius: 8px;
-  box-shadow: 0 6px 18px rgba(0,0,0,0.1);
+  box-shadow: 0 6px 18px rgba(0, 0, 0, 0.1);
   margin: 2rem 0;
 }
 
 .button-container {
-  display: inline-flex;
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
   gap: 1rem;
   margin-top: 2rem;
 }
 
 .button-container a {
   background-color: #3f2e1e;
-  color: #fff;
-  padding: .8rem 1.5rem;
-  border-radius: 4px;
+  color: white;
+  padding: 0.8rem 1.5rem;
+  border-radius: 5px;
+  font-size: 1rem;
   font-weight: bold;
-  transition: background-color .3s;
+  transition: background-color 0.3s;
 }
 
 .button-container a:hover {
@@ -94,7 +103,8 @@ nav a:hover {
 
 footer {
   background-color: #3f2e1e;
-  color: #fff;
+  color: white;
   text-align: center;
   padding: 1.5rem;
+  margin-top: 4rem;
 }
